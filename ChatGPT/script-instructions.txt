@@ -1,0 +1,7 @@
+I need the following:
+1. A script in python that takes in a folder with *.json files and modify the "checkTickersFrequency" to 10000 if the "assetSymbol" ends in USDT and modifies it to be 90000 otherwise.
+2. the original folder is in: /home/yahweh/code/ah/config/config/
+3. the new folder is in : /home/yahweh/code/ah/config/output/
+4. It should save all of the new config in the new folder with only the changed modification
+5. If there are no "checkTickersFrequency" then add the field in the correct location and have the correct values based on #1
+6. attached are samples of the json files

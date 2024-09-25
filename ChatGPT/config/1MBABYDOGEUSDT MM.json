@@ -1,0 +1,27 @@
+{
+    "comments": "1MBABYDOGEUSDT for spikes",
+    "configName": "1MBABYDOGEUSDT MM",
+    "offset": "0",
+    "checkTickersFrequency": 9000,
+    "underlyingAssets": [
+        {
+            "assetSymbol": "1MBABYDOGEUSDT",
+            "assetExchange": "BIN_CMAG",
+            "currencySymbol": "",
+            "currencyExchange": "",
+            "hedgeAsset": "yes",
+            "hedgeCurrency": "no",
+            "multiplyRatio": "1.0",
+            "minSizeOrderAsset": "6u",
+            "minSizeOrderCurrency": "0.0001"
+        }
+    ],
+    "tradeAsset": {
+        "assetSymbol": "1MBABYDOGEUSDT",
+        "assetExchange": "BIN_CMAG",
+        "minSizeOrder": "6u",
+        "currencyType": "Divide"
+    },
+    "strategyType": "Theo",
+    "configType": "ETF"
+}

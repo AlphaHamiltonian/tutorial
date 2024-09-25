@@ -1,0 +1,27 @@
+{
+    "comments": "ACAUSDT for spikes",
+    "configName": "ACAUSDT MM",
+    "offset": "0",
+    "checkTickersFrequency": 9000,
+    "underlyingAssets": [
+        {
+            "assetSymbol": "ACAUSDT",
+            "assetExchange": "BIN_CMAG",
+            "currencySymbol": "",
+            "currencyExchange": "",
+            "hedgeAsset": "yes",
+            "hedgeCurrency": "no",
+            "multiplyRatio": "1.0",
+            "minSizeOrderAsset": "6u",
+            "minSizeOrderCurrency": "0.0001"
+        }
+    ],
+    "tradeAsset": {
+        "assetSymbol": "ACAUSDT",
+        "assetExchange": "BIN_CMAG",
+        "minSizeOrder": "6u",
+        "currencyType": "Divide"
+    },
+    "strategyType": "Theo",
+    "configType": "ETF"
+}
